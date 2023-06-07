@@ -1,20 +1,3 @@
-<style>
-    summary{
-        padding: 4px;
-        width: 100px;
-        text-align: center;
-        background-color: #202020;
-        border: none;
-        box-shadow: none;
-        cursor: pointer;
-        list-style: none;
-        transition: 0.2s;
-    }
-    summary:hover{
-        transition: 0.2s;
-        background-color: #16b4f8;
-    }
-</style>
 <h1 align="center"><b>PROJETO DE APLICATIVO DE CRIPTOGRAFIA</b></h1>
     <p>
     O Caesar Cipher é um aplicativo que roda em terminal, desenvolvido em Python.
@@ -27,8 +10,8 @@
 <p>
     Ao iniciar a aplicação o usuário é recebido com a logo do aplicativo e a mensagem inicial.
     <p>Clique no "Spoiler" para verificar a imagem.</p>
-    <details name="a">
-        <summary class="sp1">Spoiler</summary>
+    <details>
+        <summary>Spoiler</summary>
         <img size="20%" align="center" src="https://i.imgur.com/hyKVoZY.png">
     </details>  
 </p>
@@ -37,7 +20,7 @@
     Escolhendo a opção de 'encode', é solicitado ao usuário que informe a mensagem que deseja criptografar e a quantidade de letras que devem ser movidas.
     <p>Clique no "Spoiler" para verificar a imagem.</p>
     <details>
-    <summary>Spoiler</summary>
+    <summary :hover="color: blue">Spoiler</summary>
         <img size="20%" align="center" src="https://i.imgur.com/OutO9Uw.png">
     </details>
 </p>
@@ -49,6 +32,9 @@
         <summary>Spoiler</summary>
     <img size="20%" align="center" src="https://i.imgur.com/V204i4z.png">
     </details>
+</p>
+<p>
+    Importante salientar que sempre quando o usuário optar por usar a aplicação novamente, toda tela do programa é zerada novamente, nenhuma informação é arquivada.
 </p>
 <br>
 <hr>
