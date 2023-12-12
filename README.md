@@ -96,3 +96,8 @@ while restart:
     if result == 'n':
         restart = False
 ```
+
+<h2>Resultados</h2>
+<p>Agora com o projeto finalizado, você pode ver os resultados dessa aplicação em tempo real acessando este 
+<a href="https://replit.com/@AyrtonYamashita/Criptografia-com-Python">link</a>
+com este projeto em nuvem utilizando Replit. Ao acessar basta logar com uma conta (se necessário) e clicar em run.</p>
